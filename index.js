@@ -45,13 +45,18 @@
 
 // alert(`The largest number is: ${baraNumber}`);
 
-// 4. USER SE STRING LE AND USKO ULTA PRINT KARE
+// USER SE STRING LE AND USKO ULTA PRINT KARE
 // DESCRIPTION:
 // 1. user se koi b string input le
 // 2. usko reverse me print karde e.g: mehtab -> bathem
 
+// var userInput = prompt("Enter a string:");
 
-// 5. FACTORIAL
+// var ultaString = userInput.split('').reverse().join('');
+
+// alert(`Reversed string: ${ultaString}`);
+
+// FACTORIAL
 // DESCRIPTION:
 // 1. user se koi b NUMBER input le
 // 2. us number ka factorial find kr k print kare
