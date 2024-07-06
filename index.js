@@ -59,3 +59,24 @@
 // the product of an integer and all the integers below it; e.g. factorial four ( 4! ) is equal to 24.
 // 4 * 3 * 2 * 1 = 24
 
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1;
+//     } else {
+//         let result = 1;
+//         for (let i = 2; i <= n; i++) {
+//             result *= i;
+//         }
+//         return result;
+//     }
+// }
+
+// const userInput = parseInt(prompt("Enter a non-negative integer:"));
+
+// if (!isNaN(userInput) && userInput >= 0) {
+//     const result = factorial(userInput);
+//     console.log(`Factorial of ${userInput} is ${result}`);
+// }
+// else {
+//     console.log("Invalid input. Please enter a non-negative integer.");
+// }
