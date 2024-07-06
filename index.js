@@ -29,21 +29,21 @@
 // 1. user se 5 numbers le and unko aik aik kar k array me rakhe
 // 2. phr array elements me SUB SE BARA NUMBER find kar k print kare
 
-const number5s = [];
+// const number5s = [];
 
-for (let i = 0; i < 5; i++) {
-    const userInput = parseFloat(prompt(`Enter number ${i + 1}:`));
-    number5s.push(userInput);
-}
+// for (let i = 0; i < 5; i++) {
+//     const userInput = parseFloat(prompt(`Enter number ${i + 1}:`));
+//     number5s.push(userInput);
+// }
 
-let baraNumber = number5s[0];
-for (const num of number5s) {
-    if (num > baraNumber) {
-        baraNumber = num;
-    }
-}
+// let baraNumber = number5s[0];
+// for (const num of number5s) {
+//     if (num > baraNumber) {
+//         baraNumber = num;
+//     }
+// }
 
-alert(`The largest number is: ${baraNumber}`);
+// alert(`The largest number is: ${baraNumber}`);
 
 // 4. USER SE STRING LE AND USKO ULTA PRINT KARE
 // DESCRIPTION:
